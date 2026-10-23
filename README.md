@@ -80,6 +80,14 @@ Invalid requests may return `400 Bad Request` or `404 Not Found`.
 
 Tasks are stored in memory. Data resets when the server restarts. No database is required.
 
+
+## Running Tests
+
+Install the testing dependencies:
+
+```bash
+python -m pip install httpx pytest
+
 ## Interactive Documentation
 
 FastAPI provides interactive API documentation through Swagger UI at `/docs`.
